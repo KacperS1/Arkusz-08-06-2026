@@ -12,5 +12,5 @@ if(liczbaOdwiedzin === null) {
 
 localStorage.setItem("liczbaOdwiedzin", liczbaOdwiedzin);
 
-wynik.innerHTML = liczbaOdwiedzin;
+wynik.innerHTML = 'Liczba wejść na stronę ' + liczbaOdwiedzin;
 }
